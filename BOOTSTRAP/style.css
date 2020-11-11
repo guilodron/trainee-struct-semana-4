@@ -1,0 +1,156 @@
+/* normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Sen', sans-serif;
+}
+
+/* estilos gerais ou reutilizáveis */
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 230px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(185, 0, 0);
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.learn-more .button {
+  margin-bottom: 40px;
+}
+
+.learn-more span {
+  color: white
+}
+
+@keyframes float {
+  from {transform: translateY(10px);}
+  to {transform: translateY(0);}
+}
+
+.learn-more i {
+  color: white;
+  font-size: 40px;
+  animation: float 1s alternate-reverse infinite;
+}
+
+/* titulo de cada seção */
+
+.title {
+  text-align: center;
+  margin-top: 200px;
+  color: #FFFFFF;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.title h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-shadow: 0px 4px 4px rgba(255, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #F00;
+}
+/* Header */
+
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: white;
+  margin-left: 60px;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+/* Carrega backgrounds */
+
+.landing {
+  background: url(./assets/banner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing .logoText {
+  height: 25%;
+  margin-top: 220px;
+}
+
+
+.miles {
+  background: url(./assets/banner-miles-3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gwen {
+  background: url(./assets/banner-gwen.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.peter {
+  background: url(./assets/banner-peter.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.porker {
+  background: url(./assets/banner-peter-porker.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.noir {
+  background: url(./assets/banner-noir-3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.peni {
+  background: url(./assets/banner-peni.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
