@@ -1,0 +1,14 @@
+body{
+    background: #0d0d26;
+}
+.header{
+    color: aliceblue;
+}
+.texto{
+    color: aliceblue;
+    font-size: 40px;
+}
+.corpo{
+    width: 960px;
+    margin: auto;
+}
